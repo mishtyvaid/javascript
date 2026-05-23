@@ -1,4 +1,4 @@
 const id=1234
 let name="neha"
-
-console.table([id,name])
+let status;
+console.table([id,name,status])
