@@ -1,0 +1,18 @@
+const arr1=[1,2,3,4,5]
+console.log(arr1)
+let arr2= new Array(10,20,30,40,50)
+console.log(arr2)
+arr1.push(98)
+console.log(arr1)
+arr1.pop()
+console.log(arr1)
+arr2.unshift(98)
+console.log(arr2)
+arr2.shift()
+console.log(arr2)
+console.log("join",arr2=arr1.join(arr2))
+
+console.log("slice",arr1.slice(1,3))
+console.log(arr1)
+console.log("splice",arr1.splice(1,3))
+console.log(arr1)
